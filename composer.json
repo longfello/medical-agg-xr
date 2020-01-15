@@ -1,0 +1,88 @@
+{
+  "keywords": [
+    "yii2",
+    "framework",
+    "yii2 advanced"
+  ],
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/trntv/yii2-starter-kit/issues?state=open",
+    "source": "https://github.com/trntv/yii2-starter-kit"
+  },
+  "require": {
+    "php": ">=7.0",
+    "ext-intl": "*",
+    "ext-imagick": "*",
+    "yiisoft/yii2": "~2.0.13",
+    "yiisoft/yii2-bootstrap": "~2.0.0",
+    "yiisoft/yii2-swiftmailer": "^2.0.0",
+    "yiisoft/yii2-authclient": "^2.0.0",
+    "yiisoft/yii2-jui": "^2.0.0",
+    "asofter/yii2-imperavi-redactor": "dev-master@dev",
+    "mihaildev/yii2-elfinder": "^1.0",
+    "trntv/yii2-aceeditor": "^2.0",
+    "trntv/probe": "^0.2",
+    "trntv/yii2-glide": "^1.0.0",
+    "trntv/yii2-datetime-widget": "^1.0.0",
+    "trntv/cheatsheet": "^0.1@dev",
+    "intervention/image": "2.*",
+    "vlucas/phpdotenv": "^2.0",
+    "bower-asset/font-awesome": "^4.0",
+    "bower-asset/html5shiv": "^3.0",
+    "bower-asset/jquery-slimscroll": "^1.3",
+    "bower-asset/flot": "^0.8",
+    "symfony/process": "^3.0",
+    "kartik-v/yii2-widgets": "*",
+    "2amigos/yii2-file-upload-widget": "^1.0",
+    "aws/aws-php-sns-message-validator": "^1.1",
+    "aws/aws-sdk-php": "^3.26",
+    "nkovacs/yii2-datetimepicker": "*",
+    "kartik-v/yii2-mpdf": "^1.0",
+    "bower-asset/jquery": "1.12.*",
+    "stripe/stripe-php": "^4.12",
+    "2amigos/yii2-ckeditor-widget": "^2.1",
+    "rmrevin/yii2-fontawesome": "^2.17",
+    "baibaratsky/yii2-serialized-attributes-behavior": "^1.2",
+    "alexandernst/yii2-device-detect": "^0.0.11",
+    "yiisoft/yii2-imagine": "*",
+    "kartik-v/yii2-widget-select2": "@dev",
+    "2amigos/yii2-date-time-picker-widget": "^1.0",
+    "2amigos/qrcode-library": "~1.1",
+    "2amigos/yii2-selectize-widget": "~1.0",
+    "bower-asset/mf-connect": "^1.5",
+    "peekmo/jsonpath": "dev-master",
+    "rmrevin/yii2-minify-view": "^2.0",
+    "bower-asset/malihu-custom-scrollbar-plugin": "^3.1",
+    "machour/yii2-notifications": "*",
+    "gumlet/php-image-resize": "1.8.*",
+    "zeptech/annotations": "1.1.0",
+    "hpatoio/bitly-api": "~2.0",
+    "twitter/typeahead.js": "*",
+    "npm-asset/svg4everybody": "^2.1",
+    "borales/yii2-phone-input": "0.1.1",
+    "kartik-v/yii2-grid": "^3.2",
+    "paragraph1/php-fcm": "*",
+    "yii2assets/yii2-pdfjs": ">=1.0"
+  },
+  "require-dev": {
+    "yiisoft/yii2-debug": "^2.0.0",
+    "yiisoft/yii2-gii": "*",
+    "stevad/yii2-xhprof": "@dev"
+  },
+  "config": {
+    "process-timeout": 1800,
+    "fxp-asset": {
+      "installer-paths": {
+        "npm-asset-library": "vendor/npm",
+        "bower-asset-library": "vendor/bower"
+      },
+      "repositories": {
+        "bower-asset/mf-connect": {
+          "type": "bower-vcs",
+          "url": "https://bitbucket.org/mfgit/mf-connect"
+        }
+      }
+    }
+  }
+}
